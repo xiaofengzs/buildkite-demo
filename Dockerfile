@@ -4,6 +4,7 @@ MAINTAINER "Gao Shuai" <gaoshuai1205@gmail.com>
 ENV APP_DIR  /app/
 
 RUN mkdir -p $APP_DIR
+RUN apt
 
 WORKDIR $APP_DIR
 COPY . $APP_DIR
